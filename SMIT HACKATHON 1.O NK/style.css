@@ -1,0 +1,46 @@
+
+body{
+    background-color: gray;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1300px;
+    padding: 20px 10%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.logo{
+font-size: 25px;
+color: black;
+text-decoration: none;
+font-weight: 600;
+}
+.navbar {
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+.navbar a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+.navbar a:hover{
+    color: aqua;
+}
+h3{
+    width: 500px;
+    /* padding-top: 10px; */
+}
+h1{
+    /* padding: 10px auto; */
+}
